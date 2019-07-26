@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	
+}
+
+body {
+	
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:FFFFFF;
+	background:#0CF;
+}
+
+.outsider {
+	display:inline-block;
+	position:relative;
+	width:40%;
+	padding-right:20px;
+	float:right;
+	
+}
+
+#formContact input[type="text"], #formContact input[type="email"], #formContact input[type="tel"], #formContact textarea, #formContact button[type="submit"] 
+{ font:400 12px/16px "Open Sans",'Montserrat', sans-serif; }
+
+.mapouter{
+	width:40%;
+	float:left;
+	
+	padding-left:10px;
+	padding-top:10px;
+}
+.map{
+	display :block;
+	size:100%;
+}
+.gmap{
+	display:inline-block;
+	width:40%;
+	margin-top:30px;
+	margin-left:20px;
+	padding-top:20px;
+	float:left;
+}
+iframe{
+	width:100%;
+	
+	height:400px;
+	
+	
+}
+
+
+#formContact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#formContact h3 {
+	color: #d6bc80;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#formContact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#formContact input[type="text"], #formContact input[type="email"], #formContact input[type="tel"], #formContact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#formContact input[type="text"]:hover, #formContact input[type="email"]:hover, #formContact input[type="tel"]:hover, #formContact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#formContact textarea {
+	height:100px;
+	max-width:100%;
+	resize:none;
+}
+
+#formContact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#22324b;
+	color:#;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#formContact button[type="submit"]:hover {
+	background:#d6bc80;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#formContact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#formContact input:focus, #formContact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+
+
+footer{
+	clear:both;
+}
